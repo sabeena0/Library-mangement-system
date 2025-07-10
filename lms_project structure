@@ -1,0 +1,4 @@
+src/
+├── Book.java            # Data model
+├── Library.java         # Business logic
+├── LibrarySystem.java   # GUI implementation
