@@ -140,7 +140,7 @@ public class LibrarySystem extends JFrame {
         JButton issueButton = new JButton("Issue Book");
         JButton returnButton = new JButton("Return Book");
 
-        // Output Area - Made larger
+        // Output Area
         outputArea = new JTextArea();
         outputArea.setEditable(false);
         outputArea.setFont(new Font("Monospaced", Font.PLAIN, 14)); 
@@ -169,11 +169,8 @@ public class LibrarySystem extends JFrame {
         contentPanel.add(inputPanel, BorderLayout.NORTH);
         contentPanel.add(buttonPanel, BorderLayout.CENTER);
 
-        // Add components to frame with proper spacing
         add(contentPanel, BorderLayout.NORTH);
         add(scrollPane, BorderLayout.CENTER);
-
-        // Make sure the window is centered
         setLocationRelativeTo(null);
     }
 
